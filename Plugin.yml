@@ -1,18 +1,18 @@
-name: ExamplePlugin
-main: ExamplePlugin\MainClass
-version: 1.0.0
-api: [1.0.0]
+name:ScoreboardPE
+main: ScoreboardPE\MainClass
+version: 2.0.0
+api: [2.0.0]
 
-load: POSTWORLD
-author: PocketMine Team
-description: Example plugin showing the new API
-website: https://github.com/PocketMine/ExamplePlugin
-commands:
+load: Scoreboard
+author: NGGNewGen
+description: loads a scoreboard at the bottom of then screen 
+website: https://github.com/PocketMine/ScoreboardPE
+commands: /sb load 
  example:
   description: Example command
   usage: "Usage: /example"
-  permission: exampleplugin.command.example
+  permission: scoreboardpe.command.use
 permissions:
- exampleplugin.command.example:
-  description: "Allows the user to run the example command"
+ Scoreboardpe.command.example:
+  description: "Allows the user to run the scoreboard command"
   default: true
