@@ -1,4 +1,4 @@
-name:ScoreboardPE
+name: ScoreboardPE
 main: ScoreboardPE\MainClass
 version: 2.0.0
 api: [2.0.0]
@@ -10,7 +10,7 @@ website: https://github.com/PocketMine/ScoreboardPE
 commands: /sb load 
  example:
   description: Example command
-  usage: "Usage: /example"
+  usage: "/sb load"
   permission: scoreboardpe.command.use
 permissions:
  Scoreboardpe.command.example:
